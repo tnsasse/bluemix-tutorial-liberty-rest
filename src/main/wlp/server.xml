@@ -1,7 +1,7 @@
 <server>
 
     <featureManager>
-        <feature>servlet-3.1</feature>
+        <feature>jaxrs-2.0</feature>
     </featureManager>
 
     <httpEndpoint id="defaultHttpEndpoint"
@@ -10,6 +10,6 @@
         <tcpOptions soReuseAddr="true"/>
     </httpEndpoint>
 
-    <application name="JavaHelloWorldApp" context-root="/JavaHelloWorldApp" location="${appLocation}" type="war"/>
+    <application name="blueair-rest" context-root="blueair-rest" location="${appLocation}" type="war"/>
 
 </server>
