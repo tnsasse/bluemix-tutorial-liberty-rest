@@ -14,8 +14,8 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>Liberty Profile Sample - Servlet</name>
-    <url>https://wasdev.github.io</url>
+    <name>BlueAir REST Services</name>
+    <url>http://github.com/tnsasse</url>
 
     <licenses>
         <license>

@@ -2,14 +2,14 @@ package com.blueair.rest;
 
 public class Flight {
 
-	private String number;
-	private Float latitude;
+	private final String flightNo;
+	private float latitude;
 	private float longitude;
 	private Long timestamp;
 	private String status;
 	
 	public Flight(String number, float latitude, float longitude, long timestamp, String status) {
-		this.number = number;
+		this.flightNo = number;
 		this.latitude = latitude;
 		this.longitude = longitude;
 		this.timestamp = timestamp;
@@ -17,18 +17,14 @@ public class Flight {
 	}
 	
 	public String getNumber() {
-		return number;
-	}
-	
-	public void setNumber(String number) {
-		this.number = number;
+		return flightNo;
 	}
 	
 	public Float getLatitude() {
 		return latitude;
 	}
 	
-	public void setLatitude(Float latitude) {
+	public void setLatitude(float latitude) {
 		this.latitude = latitude;
 	}
 	
